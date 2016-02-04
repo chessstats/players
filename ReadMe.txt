@@ -40,9 +40,9 @@ library(players)
 download_list()
 
 this will create a directory called 'list_download' in the working directory
-warning: if the directory existed before all its content will be deleted!
 plus a subdirectory within the 'list_download' directory
 the subdirectory will have the name in format "dd_mm_yyyy" for the current date ( eg. "04_02_2016" )
+warning: if the subdirectory existed before all its content will be deleted!
 then it downloads the XML file and saves it in the subdirectory
 unzips it and renames the unzipped XML file 'players.xml'
 
